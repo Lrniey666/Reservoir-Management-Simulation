@@ -5,6 +5,8 @@
 
 <div align="center">
   <img src="docs/assets/screenshot-sunny.png" alt="水庫模擬器 Beta：晴天、滿庫、閘門關閉的操作台" width="760">
+  <br>
+  <sub>晴天、滿庫、閘門關閉。第 98 天的操作台。</sub>
 </div>
 
 <h1 align="center">Reservoir Management Simulation</h1>
@@ -86,22 +88,36 @@
 
 <div align="center">
   <img src="docs/assets/screenshot-releasing.png" alt="第 68 天，滿庫、閘門全開洩洪，操作台亮紅燈" width="760">
+  <br>
+  <sub>第 68 天。滿庫、閘門全開、已發洩洪警報；紅燈與「潰堤危機」一起亮。</sub>
 </div>
-<div align="center"><sub>第 68 天。滿庫、閘門全開、已發洩洪警報；紅燈與「潰堤危機」一起亮。</sub></div>
 
-<div align="center">
-  <img src="docs/assets/screenshot-flood-warning.png" alt="下雨、閘門仍關、警報潰堤危機" width="420">
-  &nbsp;
-  <img src="docs/assets/screenshot-drought.png" alt="陰雨、缺水、庫底見土" width="420">
-</div>
-<div align="center"><sub>左：下雨卻關閘，警報「潰堤危機」。右：缺水、庫區見土，閘門仍關。</sub></div>
-
-<div align="center">
-  <img src="docs/assets/screenshot-transferred.png" alt="連續停電七天被調職，按鈕變成再試一次" width="420">
-  &nbsp;
-  <img src="docs/assets/screenshot-breach.png" alt="水壩潰堤被調職" width="420">
-</div>
-<div align="center"><sub>兩種調職。「度過一天」會變成「再試一次」。左：連續停電七天。右：水漫過壩。</sub></div>
+<table>
+<tr>
+<td align="center" valign="top">
+<img src="docs/assets/screenshot-flood-warning.png" alt="下雨、閘門仍關、警報潰堤危機" width="420">
+<br>
+<sub>下雨卻關閘，警報「潰堤危機」。</sub>
+</td>
+<td align="center" valign="top">
+<img src="docs/assets/screenshot-drought.png" alt="陰雨、缺水、庫底見土" width="420">
+<br>
+<sub>缺水、庫區見土，閘門仍關。</sub>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top">
+<img src="docs/assets/screenshot-transferred.png" alt="連續停電七天被調職，按鈕變成再試一次" width="420">
+<br>
+<sub>連續停電七天被調職。「度過一天」變成「再試一次」。</sub>
+</td>
+<td align="center" valign="top">
+<img src="docs/assets/screenshot-breach.png" alt="水壩潰堤被調職" width="420">
+<br>
+<sub>水漫過壩被調職。按鈕同樣是「再試一次」。</sub>
+</td>
+</tr>
+</table>
 
 ### 一條完整路徑
 

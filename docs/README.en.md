@@ -5,6 +5,8 @@
 
 <div align="center">
   <img src="assets/screenshot-sunny.png" alt="Reservoir Simulator Beta: sunny day, full pool, gate shut" width="760">
+  <br>
+  <sub>Sunny, full pool, gate shut. The console on day 98.</sub>
 </div>
 
 <h1 align="center">Reservoir Management Simulation</h1>
@@ -88,22 +90,36 @@ These are in-game shots from the 2023 report, not the loose art plates and not a
 
 <div align="center">
   <img src="assets/screenshot-releasing.png" alt="Day 68: full pool, gate fully open, red console lamp" width="760">
+  <br>
+  <sub>Day 68. Full pool, gate open, flood alarm on; the red lamp and “breach risk” come up together.</sub>
 </div>
-<div align="center"><sub>Day 68. Full pool, gate open, flood alarm on; the red lamp and “breach risk” come up together.</sub></div>
 
-<div align="center">
-  <img src="assets/screenshot-flood-warning.png" alt="Rain, gate still shut, breach-risk alarm" width="420">
-  &nbsp;
-  <img src="assets/screenshot-drought.png" alt="Rain, drought, exposed reservoir bed" width="420">
-</div>
-<div align="center"><sub>Left: rain with the gate shut and a breach-risk alarm. Right: drought, bed showing, gate still shut.</sub></div>
-
-<div align="center">
-  <img src="assets/screenshot-transferred.png" alt="Transferred after seven days without power; Try again" width="420">
-  &nbsp;
-  <img src="assets/screenshot-breach.png" alt="Transferred after the dam breached" width="420">
-</div>
-<div align="center"><sub>Two transfers. “Spend a day” becomes “Try again”. Left: seven days without power. Right: water over the crest.</sub></div>
+<table>
+<tr>
+<td align="center" valign="top">
+<img src="assets/screenshot-flood-warning.png" alt="Rain, gate still shut, breach-risk alarm" width="420">
+<br>
+<sub>Rain with the gate shut, and a breach-risk alarm.</sub>
+</td>
+<td align="center" valign="top">
+<img src="assets/screenshot-drought.png" alt="Rain, drought, exposed reservoir bed" width="420">
+<br>
+<sub>Drought, bed showing, gate still shut.</sub>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top">
+<img src="assets/screenshot-transferred.png" alt="Transferred after seven days without power; Try again" width="420">
+<br>
+<sub>Transferred after seven days without power. “Spend a day” becomes “Try again”.</sub>
+</td>
+<td align="center" valign="top">
+<img src="assets/screenshot-breach.png" alt="Transferred after the dam breached" width="420">
+<br>
+<sub>Transferred after water went over the crest. Same “Try again” button.</sub>
+</td>
+</tr>
+</table>
 
 ### One full path
 
