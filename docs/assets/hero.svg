@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Reservoir Management Simulation</title>
+  <desc id="desc">A JavaFX day-step game about running a Shimen-scale reservoir. 2023 coursework.</desc>
+  <style>
+    .bg { fill: #eef6fa; }
+    .frame { fill: none; stroke: #c5d6e0; stroke-width: 1; }
+    .title { fill: #0f2438; font: 700 46px "Segoe UI", "Helvetica Neue", sans-serif; letter-spacing: 0.2px; }
+    .tag { fill: #4d6474; font: 400 20px "Segoe UI", "Helvetica Neue", sans-serif; }
+    .rule { stroke: #2b8fc9; stroke-width: 4; stroke-linecap: round; }
+    .chip { fill: #ffffff; stroke: #c5d6e0; stroke-width: 1; }
+    .chip-text { fill: #0f2438; font: 600 16px "Segoe UI", "Helvetica Neue", sans-serif; }
+    .sky { fill: #7ec8f0; }
+    .hill { fill: #6f8f62; }
+    .water { fill: #2b8fc9; }
+    .deep { fill: #1a5f86; }
+    .dam { fill: #8a97a3; }
+    .crest { fill: #cfd6dc; }
+    .navy { fill: #0f2438; }
+    .amber { fill: #c9892b; }
+    .foam { fill: #e8f6ff; fill-opacity: 0.85; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0d1b26; }
+      .frame { stroke: #243848; }
+      .title, .chip-text { fill: #e6eef4; }
+      .tag { fill: #8aa0b0; }
+      .chip { fill: #132433; stroke: #243848; }
+      .sky { fill: #1a4a66; }
+    }
+  </style>
+  <rect class="bg" width="1200" height="360" rx="28"/>
+  <rect class="frame" x="0.5" y="0.5" width="1199" height="359" rx="28"/>
+
+  <g transform="translate(48,56)">
+    <rect class="sky" x="0" y="0" width="300" height="118" rx="8"/>
+    <circle class="amber" cx="248" cy="28" r="14"/>
+    <path class="hill" d="M0 118 L0 78 C 28 58, 56 70, 86 64 C 122 56, 148 78, 186 70 C 228 60, 256 78, 300 66 L300 118 Z"/>
+    <rect class="water" x="0" y="118" width="300" height="86"/>
+    <path class="deep" d="M0 168 H300 V204 H0 Z"/>
+    <rect class="dam" x="168" y="96" width="132" height="108"/>
+    <rect class="crest" x="160" y="88" width="148" height="16" rx="3"/>
+    <path class="foam" d="M176 118 C 188 148, 196 168, 188 204 H168 V118 Z"/>
+    <circle class="amber" cx="292" cy="96" r="4"/>
+  </g>
+
+  <text class="title" x="400" y="136">Reservoir Management</text>
+  <text class="tag" x="400" y="174">JavaFX day-step simulator · Shimen-scale numbers</text>
+  <line class="rule" x1="400" y1="194" x2="476" y2="194"/>
+
+  <g>
+    <rect class="chip" x="400" y="226" width="132" height="40" rx="10"/>
+    <text class="chip-text" x="466" y="252" text-anchor="middle">JavaFX 8</text>
+    <rect class="chip" x="544" y="226" width="168" height="40" rx="10"/>
+    <text class="chip-text" x="628" y="252" text-anchor="middle">NetBeans Ant</text>
+    <rect class="chip" x="724" y="226" width="150" height="40" rx="10"/>
+    <text class="chip-text" x="799" y="252" text-anchor="middle">ó€Ãx</text>
+    <rect class="chip" x="886" y="226" width="210" height="40" rx="10"/>
+    <text class="chip-text" x="991" y="252" text-anchor="middle">2023 coursework</text>
+  </g>
+</svg>

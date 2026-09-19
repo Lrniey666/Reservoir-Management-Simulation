@@ -1,0 +1,27 @@
+# Course report (student number in the filename) and unused dump
+local/*
+!local/README.md
+*.docx
+
+# Unused asset (also kept under local/)
+**/ImpureDimwittedCottonmouth*
+
+# NetBeans build and JavaFX deploy
+build/
+dist/
+
+# Machine-local NetBeans state and auto-update leftovers
+nbproject/private/
+nbproject/UPDATED.TXT
+nbproject/jfx-impl_backup*.xml
+
+# Compiled leftovers
+*.class
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.tmp
+*.swp
