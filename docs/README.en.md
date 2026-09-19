@@ -41,9 +41,7 @@
 
 Too much water breaches the dam; too little leaves the town without tap water or power. The assignment puts you in the control room: each day draws a weather state and an inflow band; you set the gates, supply, generation and flood alarm. Failures are written into the work log — consecutive outages, public complaints, or water over the crest.
 
-The numeric bands were sized against **Shimen Reservoir** public figures and live in `Rock_Door_reservoir` (Rock Door = 石門). The 2023 report said another reservoir class could be added later if more numbers were collected.
-
-English in this repository is **English**.
+The numeric bands were sized against **Shimen Reservoir** public figures and live in `Rock_Door_reservoir` (Rock Door = 石門). 
 
 > **Status.** Submitted as a JavaFX mini-game in 2023; packaged for GitHub in 2026. Behaviour is frozen. Typos, the unused `evaporation()` helper and the NetBeans licence-header comments remain. The marked report, build products and unused GIF stay in local `local/` and are gitignored.
 
