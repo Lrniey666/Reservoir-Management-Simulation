@@ -15,6 +15,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - Unused `ImpureDimwittedCottonmouth-max-1mb.gif` and the 2023 Word report moved to `local/` (still on disk, not in the public tree).
 - README demo images are 2023 in-game screenshots taken from the course report (no student number in the public filenames). The previous hero SVG and loose art plates under `docs/assets/` are gone.
+- Screenshot captions sit under each image (title-band shot included), not as a shared left/right line.
 - Gameplay source is unchanged from the 2023 hand-in.
 
 ### Removed
