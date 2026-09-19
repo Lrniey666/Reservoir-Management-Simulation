@@ -9,4 +9,4 @@
 
 `build/`、`dist/`、`nbproject/private/`、`nbproject/jfx-impl_backup*.xml` 仍在專案根目錄（NetBeans 再開會再生），只是同樣被忽略。
 
-需要對 2023 繳交原文或截圖時，在這台機器打開報告即可。請不要把這個目錄、學號或 GIF 推進公開分支。
+公開 README 的示範圖是從這份報告抽出的遊戲畫面，檔名已改成 `docs/assets/screenshot-*.png`，不含學號。需要對 2023 繳交原文時，在這台機器打開報告即可。請不要把這個目錄、學號或 GIF 推進公開分支。

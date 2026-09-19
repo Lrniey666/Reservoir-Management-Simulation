@@ -10,7 +10,7 @@
 | [gameplay.md](gameplay.md) | 一天結算、失敗條件、石門量級參數 |
 | [installation.md](installation.md) | JDK 8／JavaFX／NetBeans，以及為什麼 WebStart 不能用 |
 | [CONTRIBUTING.en.md](CONTRIBUTING.en.md) | 貢獻指南英文 |
-| [assets/](assets/) | Hero、操作台與壩景示範圖 |
+| [assets/](assets/) | 2023 報告抽出的遊戲畫面 |
 
 ## 課程
 

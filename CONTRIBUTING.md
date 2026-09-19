@@ -32,5 +32,5 @@
 ## 改完必做
 
 1. Notable 變更寫進 `CHANGELOG.md` → `## [Unreleased]`
-2. 動到 Hero／安裝／結構 → 繁中與英文 README 一起改
+2. 動到示範截圖／安裝／結構 → 繁中與英文 README 一起改
 3. 若改了 `src/` 行為，在 [`docs/gameplay.md`](docs/gameplay.md) 註明與 2023 檔的偏離

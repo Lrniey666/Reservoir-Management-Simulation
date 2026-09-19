@@ -32,5 +32,5 @@ Ask first before irreversible git history changes.
 ## After a change
 
 1. Note it under `## [Unreleased]` in `CHANGELOG.md`
-2. Keep the two README tours in step if you touch the hero, install steps or tree
+2. Keep the two README tours in step if you touch screenshots, install steps or the tree
 3. If `src/` behaviour changes, record the drift from the submitted files in [`gameplay.md`](gameplay.md)
