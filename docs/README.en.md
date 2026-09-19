@@ -1,30 +1,30 @@
-<p align="center">
+<div align="center">
   <a href="../README.md"><img alt="繁體中文" src="https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-2b8fc9?style=for-the-badge&labelColor=0f2438"></a>
   <a href="#readme"><img alt="English" src="https://img.shields.io/badge/English-6f8f62?style=for-the-badge&labelColor=0f2438"></a>
-</p>
+</div>
 
-<p align="center">
-  <img src="assets/hero.svg" alt="Reservoir Management Simulation" width="760">
-</p>
+<div align="center">
+  <img src="assets/screenshot-sunny.png" alt="Reservoir Simulator Beta: sunny day, full pool, gate shut" width="760">
+</div>
 
 <h1 align="center">Reservoir Management Simulation</h1>
 
-<p align="center">
+<div align="center">
   <strong>Reservoir Simulator Beta</strong><br>
   Spend a day, read the weather, then choose supply, generation, gates and alarms.<br>
   A 2023 NKUST IM JavaFX window assignment — not an operations desk.
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img alt="status" src="https://img.shields.io/badge/status-archived%20showcase-2b8fc9?style=flat-square&labelColor=0f2438">
   <img alt="year" src="https://img.shields.io/badge/year-2023-6f8f62?style=flat-square&labelColor=0f2438">
   <img alt="java" src="https://img.shields.io/badge/java-8%20%2B%20JavaFX-007396?style=flat-square&labelColor=0f2438">
   <img alt="ide" src="https://img.shields.io/badge/ide-NetBeans%208.2-1b6ac6?style=flat-square&labelColor=0f2438">
   <img alt="locale" src="https://img.shields.io/badge/locale-zh--Hant%20%2F%20en--GB-c9892b?style=flat-square&labelColor=0f2438">
   <img alt="licence" src="https://img.shields.io/badge/licence-MIT-6b6b6b?style=flat-square&labelColor=0f2438">
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <a href="#features">Features</a> ·
   <a href="#demo">Demo</a> ·
   <a href="#architecture">Architecture</a> ·
@@ -33,7 +33,7 @@
   <a href="#contributing">Contributing</a> ·
   <a href="./README.md">Docs index</a> ·
   <a href="../CHANGELOG.md">Changelog</a>
-</p>
+</div>
 
 ---
 
@@ -84,24 +84,26 @@ Rules, bands and fail states: [`gameplay.md`](gameplay.md) (Traditional Chinese)
 
 ## Demo
 
-These are the 2023 in-game drawings, not a 2026 re-run. For the assembled console, open the project on JDK 8 with JavaFX.
+These are in-game shots from the 2023 report, not the loose art plates and not a 2026 re-run. To press the buttons yourself, open the project on JDK 8 with JavaFX.
 
-<p align="center">
-  <img src="assets/console.png" alt="Pale-green console line drawing with a red lamp on the right" width="720">
-</p>
-<p align="center"><sub>Control-room plate. The work log, reservoir panel, gates and buttons sit on top of this drawing.</sub></p>
+<div align="center">
+  <img src="assets/screenshot-releasing.png" alt="Day 68: full pool, gate fully open, red console lamp" width="760">
+</div>
+<div align="center"><sub>Day 68. Full pool, gate open, flood alarm on; the red lamp and “breach risk” come up together.</sub></div>
 
-<p align="center">
-  <img src="assets/reservoir-full.png" alt="Blue sky, green hills and a full pool" width="480">
+<div align="center">
+  <img src="assets/screenshot-flood-warning.png" alt="Rain, gate still shut, breach-risk alarm" width="420">
   &nbsp;
-  <img src="assets/discharge.png" alt="Dam releasing at full gate" width="360">
-</p>
-<p align="center"><sub>Left: full-pool backdrop. Right: monitor plate when the gate is fully open.</sub></p>
+  <img src="assets/screenshot-drought.png" alt="Rain, drought, exposed reservoir bed" width="420">
+</div>
+<div align="center"><sub>Left: rain with the gate shut and a breach-risk alarm. Right: drought, bed showing, gate still shut.</sub></div>
 
-<p align="center">
-  <img src="assets/breach.png" alt="Water over the crest with floating debris" width="480">
-</p>
-<p align="center"><sub>Breach. The monitor switches to this plate when storage exceeds the maximum.</sub></p>
+<div align="center">
+  <img src="assets/screenshot-transferred.png" alt="Transferred after seven days without power; Try again" width="420">
+  &nbsp;
+  <img src="assets/screenshot-breach.png" alt="Transferred after the dam breached" width="420">
+</div>
+<div align="center"><sub>Two transfers. “Spend a day” becomes “Try again”. Left: seven days without power. Right: water over the crest.</sub></div>
 
 ### One full path
 
@@ -181,7 +183,7 @@ src/reservoir_management_simulation/
                        Java, FXML, hand-drawn PNG
 nbproject/             NetBeans project (private / backups ignored)
 build.xml              Ant entry
-docs/                  Notes, hero, demo plates; this file is the English tour
+docs/                  Notes and demo screenshots; this file is the English tour
 LICENSE                MIT
 CONTRIBUTING.md        How to send a change
 CHANGELOG.md           Keep a Changelog 2.0.0
@@ -202,6 +204,6 @@ Shimen Reservoir public statistics were used only as an order-of-magnitude refer
 
 ---
 
-<p align="center">
+<div align="center">
   <sub>NKUST Information Management · JavaFX window assignment · 2023</sub>
-</p>
+</div>

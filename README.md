@@ -1,30 +1,30 @@
-<p align="center">
+<div align="center">
   <a href="#readme"><img alt="繁體中文" src="https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-2b8fc9?style=for-the-badge&labelColor=0f2438"></a>
   <a href="docs/README.en.md"><img alt="English" src="https://img.shields.io/badge/English-6f8f62?style=for-the-badge&labelColor=0f2438"></a>
-</p>
+</div>
 
-<p align="center">
-  <img src="docs/assets/hero.svg" alt="Reservoir Management Simulation" width="760">
-</p>
+<div align="center">
+  <img src="docs/assets/screenshot-sunny.png" alt="水庫模擬器 Beta：晴天、滿庫、閘門關閉的操作台" width="760">
+</div>
 
 <h1 align="center">Reservoir Management Simulation</h1>
 
-<p align="center">
+<div align="center">
   <strong>水庫模擬器 Beta</strong><br>
   過一天，看天氣，決定供水、發電、閘門與警報。<br>
   2023 高科大資管 JavaFX 視窗小專案，不是營運系統。
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img alt="status" src="https://img.shields.io/badge/status-archived%20showcase-2b8fc9?style=flat-square&labelColor=0f2438">
   <img alt="year" src="https://img.shields.io/badge/year-2023-6f8f62?style=flat-square&labelColor=0f2438">
   <img alt="java" src="https://img.shields.io/badge/java-8%20%2B%20JavaFX-007396?style=flat-square&labelColor=0f2438">
   <img alt="ide" src="https://img.shields.io/badge/ide-NetBeans%208.2-1b6ac6?style=flat-square&labelColor=0f2438">
   <img alt="locale" src="https://img.shields.io/badge/locale-zh--Hant%20%2F%20en--GB-c9892b?style=flat-square&labelColor=0f2438">
   <img alt="licence" src="https://img.shields.io/badge/licence-MIT-6b6b6b?style=flat-square&labelColor=0f2438">
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <a href="#功能">功能</a> ·
   <a href="#示範">示範</a> ·
   <a href="#架構">架構</a> ·
@@ -33,7 +33,7 @@
   <a href="#貢獻">貢獻</a> ·
   <a href="docs/README.md">文件索引</a> ·
   <a href="CHANGELOG.md">變更紀錄</a>
-</p>
+</div>
 
 ---
 
@@ -82,24 +82,26 @@
 
 ## 示範
 
-下列是當年進遊戲的手繪素材，不是 2026 重跑截圖。要看完整操作台，請在 JDK 8 ＋ JavaFX 裡開專案。
+下列是 2023 繳交報告裡的遊戲畫面，不是拆開的素材板，也不是 2026 重跑。要自己按按鈕，請在 JDK 8 ＋ JavaFX 裡開專案。
 
-<p align="center">
-  <img src="docs/assets/console.png" alt="淡綠操作台線稿，右側有紅色指示燈" width="720">
-</p>
-<p align="center"><sub>控制室底板。工作日誌、水庫資訊、閘門與按鈕疊在這張圖上。</sub></p>
+<div align="center">
+  <img src="docs/assets/screenshot-releasing.png" alt="第 68 天，滿庫、閘門全開洩洪，操作台亮紅燈" width="760">
+</div>
+<div align="center"><sub>第 68 天。滿庫、閘門全開、已發洩洪警報；紅燈與「潰堤危機」一起亮。</sub></div>
 
-<p align="center">
-  <img src="docs/assets/reservoir-full.png" alt="藍天綠丘與滿庫水面" width="480">
+<div align="center">
+  <img src="docs/assets/screenshot-flood-warning.png" alt="下雨、閘門仍關、警報潰堤危機" width="420">
   &nbsp;
-  <img src="docs/assets/discharge.png" alt="壩體全開洩洪" width="360">
-</p>
-<p align="center"><sub>左：滿庫背景。右：閘門全開時的監視器畫面。</sub></p>
+  <img src="docs/assets/screenshot-drought.png" alt="陰雨、缺水、庫底見土" width="420">
+</div>
+<div align="center"><sub>左：下雨卻關閘，警報「潰堤危機」。右：缺水、庫區見土，閘門仍關。</sub></div>
 
-<p align="center">
-  <img src="docs/assets/breach.png" alt="水漫過壩頂、漂浮雜物" width="480">
-</p>
-<p align="center"><sub>潰堤。蓄水量超過上限時，監視器換成這張。</sub></p>
+<div align="center">
+  <img src="docs/assets/screenshot-transferred.png" alt="連續停電七天被調職，按鈕變成再試一次" width="420">
+  &nbsp;
+  <img src="docs/assets/screenshot-breach.png" alt="水壩潰堤被調職" width="420">
+</div>
+<div align="center"><sub>兩種調職。「度過一天」會變成「再試一次」。左：連續停電七天。右：水漫過壩。</sub></div>
 
 ### 一條完整路徑
 
@@ -179,7 +181,7 @@ src/reservoir_management_simulation/
                        Java、FXML、手繪 PNG
 nbproject/             NetBeans 專案（private／備份已忽略）
 build.xml              Ant 進入點
-docs/                  說明、Hero、示範圖；英文在 README.en.md
+docs/                  說明、示範截圖；英文在 README.en.md
 LICENSE                MIT
 CONTRIBUTING.md        貢獻約定
 CHANGELOG.md           Keep a Changelog 2.0.0
@@ -200,6 +202,6 @@ local/                 學號報告與未使用 GIF（gitignore）
 
 ---
 
-<p align="center">
+<div align="center">
   <sub>國立高雄科技大學 資訊管理系 · JavaFX 視窗小專案 · 2023</sub>
-</p>
+</div>
