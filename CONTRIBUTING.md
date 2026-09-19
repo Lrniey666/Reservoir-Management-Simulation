@@ -2,13 +2,13 @@
 
 語言：[繁體中文](CONTRIBUTING.md) · [English](docs/CONTRIBUTING.en.md)
 
-這是 2023 課程作業的封存展示倉。歡迎修文件、補「2026 年還能在 JDK 8 打開」的註記。請先當歷史文物看，再動手。
+這是 2023 課程作業的封存 Showcase Repository。歡迎修文件、補「2026 年還能在 JDK 8 打開」的註記。請先當歷史文物看，再動手。
 
 ## 動工前
 
 1. 讀根目錄 [`README.md`](README.md) 與 [`docs/README.md`](docs/README.md)。
 2. 改規則或參數時，同步 [`docs/gameplay.md`](docs/gameplay.md) 與對應 Java。
-3. 衝突時：**2023 繳交行為 > 展示倉文件**。文件寫錯就改文件。遊戲邏輯只允許修「原檔明顯不能編譯／不能啟動」的缺陷，並寫進 [`docs/`](docs/)。
+3. 衝突時：**2023 繳交行為 > Showcase Repository 文件**。文件寫錯就改文件。遊戲邏輯只允許修「原檔明顯不能編譯／不能啟動」的缺陷，並寫進 [`docs/`](docs/)。
 
 ## 慣例
 

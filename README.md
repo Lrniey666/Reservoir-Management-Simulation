@@ -41,7 +41,7 @@
 
 數值範圍對過 **石門水庫** 公開資料的量級，收在 `Rock_Door_reservoir`（Rock Door = 石門）。報告原文寫：以後若蒐到別座水庫的數字，可以再加一個類別。
 
-> **現況。** 這是 2023 年繳交的 JavaFX 小遊戲，2026 年才收成可公開的展示倉。程式停在當年行為；拼字、未使用的 `evaporation()`、NetBeans 範本註解都還在。學號報告、建置產物與用不到的 GIF 留在本機 `local/`，已被 git 忽略。
+> **現況。** 這是 2023 年繳交的 JavaFX 小遊戲，2026 年才收成可公開的 Showcase Repository。程式停在當年行為；拼字、未使用的 `evaporation()`、NetBeans 範本註解都還在。學號報告、建置產物與用不到的 GIF 留在本機 `local/`，已被 git 忽略。
 
 ## 功能
 
@@ -152,7 +152,7 @@ flowchart LR
 - 最高蓄水量 `20000+rnd(2000)`。初始水位 `1000+rnd(max基準-2000)`。
 - 水位分級：`> 2/3` 滿、`> 1/3` 中、其餘缺水。潰堤／乾涸警報用 `max/15` 與 `14/15`。
 - `evaporation()` 回傳 10，**從未呼叫**。`ImpureDimwittedCottonmouth-max-1mb.gif` 同樣沒被程式讀到，已移出 `src/`。
-- 展示倉相對 2023 檔：**沒改遊戲邏輯**。只整理樹、忽略建置垃圾與個資、補文件。
+- Showcase Repository 相對 2023 檔：**沒改遊戲邏輯**。只整理樹、忽略建置垃圾與個資、補文件。
 - WebStart／瀏覽器執行設定還在 `nbproject/configs/`。那條部署路徑 2026 年已經不可用，不要當成安裝方式。
 
 </details>
@@ -194,7 +194,7 @@ local/                 學號報告與未使用 GIF（gitignore）
 
 ## 授權
 
-程式、手繪圖與文件：[MIT](LICENSE) © 2023 張任沂；2026 年收成展示倉。
+程式、手繪圖與文件：[MIT](LICENSE) © 2023 張任沂；2026 年收成 Showcase Repository。
 
 石門水庫的公開統計只當參數量級參考，資料仍屬原公布機關。Oracle JDK、JavaFX、NetBeans **不是**本授權範圍。
 

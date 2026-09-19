@@ -27,7 +27,7 @@
 ## 不要用的路
 
 - **WebStart / 瀏覽器執行。** `nbproject/configs/Run_as_WebStart.properties` 與 `dist/*.jnlp` 還在磁碟上，但 Java 插件與 `java.com/js/dtjava.js` 已死。`dist/` 整棵忽略，不要把 jar 當發布物。
-- **JDK 11+ 直接 `java`。** 模組系統裡沒有 `javafx.*`。若一定要在新 JDK 試，需另加 OpenJFX 模組路徑；那已超出「重現 2023 作業」的範圍，本倉不提供腳本。
+- **JDK 11+ 直接 `java`。** 模組系統裡沒有 `javafx.*`。若一定要在新 JDK 試，需另加 OpenJFX 模組路徑；那已超出「重現 2023 作業」的範圍，本 Repository 不提供腳本。
 - **只拷 `src/` 丟進別的範本。** FXML 用 `@晴天.png` 這種中文檔名相對路徑，資源必須與 `.class` 同目錄。
 
 ## 本機材料
