@@ -82,7 +82,7 @@
 
 ## 示範
 
-下列是 2023 繳交報告裡的遊戲畫面，不是拆開的素材板，也不是 2026 重跑。要自己按按鈕，請在 JDK 8 ＋ JavaFX 裡開專案。
+遊戲畫面如下。
 
 <div align="center">
   <img src="docs/assets/screenshot-releasing.png" alt="第 68 天，滿庫、閘門全開洩洪，操作台亮紅燈" width="760">
